@@ -23,15 +23,15 @@ Each stage is processed by a separate worker that:
 
 ## Tech Stack
 
-- Next.js 16 with App Router
-- React 19 with React Compiler
+- Next.js 16
+- React 19
 - TypeScript
-- Tailwind CSS v4
+- Tailwind CSS
 - Azure Service Bus & Table Storage
 
 ## Environment Variables
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `AZURE_SERVICE_BUS_CONNECTION_STRING` | Azure Service Bus connection string | - |
-| `AZURE_STORAGE_CONNECTION_STRING` | Azure Table Storage connection string | - |
+| Variable | Description |
+|----------|-------------|
+| `AZURE_SERVICE_BUS_CONNECTION_STRING` | Azure Service Bus connection string |
+| `AZURE_STORAGE_CONNECTION_STRING` | Azure Table Storage connection string |
