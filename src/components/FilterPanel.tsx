@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
-import type { OrderEvent, EventType, ServiceName } from '@/lib/types';
+import { useState, useEffect } from 'react';
+import type { EventType, ServiceName } from '@/lib/types';
 
 interface FilterPanelProps {
   onFilterChange: (filters: FilterState) => void;
