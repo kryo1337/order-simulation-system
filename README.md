@@ -28,10 +28,4 @@ Each stage is processed by a separate worker that:
 - TypeScript
 - Tailwind CSS
 - Azure Service Bus & Table Storage
-
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `AZURE_SERVICE_BUS_CONNECTION_STRING` | Azure Service Bus connection string |
-| `AZURE_STORAGE_CONNECTION_STRING` | Azure Table Storage connection string |
+- Clerk
