@@ -38,7 +38,7 @@ function LoginContent() {
             Zaloguj sie kontem uczelnianym:
           </p>
           <p className="text-blue-400 font-mono text-sm">
-            @stud.akademiabialska.pl
+            @akademiabialska.pl
           </p>
         </div>
 

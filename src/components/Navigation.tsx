@@ -14,7 +14,6 @@ export default function Navigation() {
   const { user, isLoaded } = useUser();
   const { signOut } = useClerk();
 
-  // Nie pokazuj nawigacji na stronie logowania
   if (pathname === '/login') {
     return null;
   }
@@ -34,11 +33,10 @@ export default function Navigation() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                      isActive
+                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive
                         ? 'bg-gray-800 text-white'
                         : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                    }`}
+                      }`}
                   >
                     {item.label}
                   </Link>
